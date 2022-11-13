@@ -1,0 +1,15 @@
+[project]
+name = "cppideas"
+description = "Implementations for ideas I've had that don't really fit anywhere (yet)"
+
+
+[target.cppfront11]
+type = "interface"
+headers = ["cppfront/11/new.hpp"]
+compile-features = ["cxx_std_11"]
+
+
+[target.cppfront20]
+type = "interface"
+headers = ["cppfront/20/new.hpp"]
+compile-features = ["cxx_std_20"]
