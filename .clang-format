@@ -1,0 +1,6 @@
+BasedOnStyle: Google
+IndentWidth: 4
+
+Language: Cpp
+# Add when llvm 16 releases
+# RequiresExpressionIndentationKind: OuterScope
